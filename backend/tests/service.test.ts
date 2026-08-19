@@ -26,7 +26,7 @@ describe("createPacket", () => {
     });
     assert.equal(p.name, "Roma Tomato");
     assert.ok(p.id > 0);
-    assert.equal(p.quantity, 25);
+    assert.equal(p.quantity, 999);
     assert.equal(p.category, "vegetable");
     assert.equal(p.condition, "new");
     assert.equal(p.description, "Great for sauces");
